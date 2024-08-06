@@ -1,44 +1,38 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-body{
-  background-color: #000D40!important;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+body {
+  background-color: #000d40 !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
 
-.kart-container{
-  background-color: #143CDA;
-  
-  
+.kart-container {
+  background-color: #143cda;
 }
 
-.uefa{
+.uefa {
   color: white;
 }
 
-
-
-.player-kart{
-height: 500px;
-max-width: 380px;
-background-color: white!important;
-
+.player-kart {
+  max-height: 500px;
+  min-height: 500px;
+  max-width: 380px;
+  background-color: white !important;
 }
 
-.player-resim{
-  height:350px ;
+.player-resim {
+  height: 380px;
   transition: transform all 1s;
 }
 
-.player-kart:hover{
+.player-kart:hover {
   box-shadow: 3px 3px 20px 5px rgba(250, 250, 250, 0.5);
 }
 
-.player-kart:hover .player-resim{
+.player-kart:hover .player-resim {
   transform: scale(0.98);
 }
-
