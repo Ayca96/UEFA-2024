@@ -20,4 +20,4 @@ JavaScript: For handling application logic.
 
 ### Expected Outcome
 
-![Project Snapshot](./src/assets/chrome-capture-2024-7-13.gif)
+![Project Snapshot](./src/assets/chrome-capture-2024-8-6.gif)
